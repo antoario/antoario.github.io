@@ -1,60 +1,50 @@
-/* Reset dei margini e del padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* style.css */
 
-/* Stile del corpo del documento */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Intestazione */
 header {
     text-align: center;
-    background-color: #007BFF;
+    background-color: #0078d4;
     color: #fff;
     padding: 20px;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 36px;
 }
 
-/* Sezioni principali */
-main {
+header p {
+    font-size: 18px;
+}
+
+section {
     background-color: #fff;
+    margin: 20px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Stile delle sezioni */
-section {
-    margin-bottom: 20px;
+h2 {
+    font-size: 24px;
 }
 
-section h2 {
-    font-size: 1.5rem;
-    color: #007BFF;
-}
-
-/* Stile delle competenze */
-section ul {
+ul {
     list-style: none;
+    padding: 0;
 }
 
-section li {
-    margin-bottom: 5px;
+li {
+    margin-bottom: 10px;
 }
 
-/* Stile del piè di pagina */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
+a {
+    text-decoration: none;
+    color: #0078d4;
 }
