@@ -1,0 +1,60 @@
+/* Reset dei margini e del padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del corpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+/* Intestazione */
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Sezioni principali */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile delle sezioni */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+/* Stile delle competenze */
+section ul {
+    list-style: none;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+/* Stile del piè di pagina */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+}
