@@ -108,18 +108,12 @@ a {
 
 .column:hover {
     transform: translateZ(20px);
-    border: 2px solid #0078d4; /* Cambia il colore del bordo quando passi sopra */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Cambia l'ombra quando passi sopra */
-}
-
-#portfolio:hover {
-    transform: translateZ(20px);
-    border: 2px solid #0078d4; /* Cambia il colore del bordo quando passi sopra */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Cambia l'ombra quando passi sopra */
+    border: 2px solid #0078d4;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project:hover {
     transform: translateZ(20px);
-    border: 2px solid #0078d4; /* Cambia il colore del bordo quando passi sopra */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Cambia l'ombra quando passi sopra */
+    border: 2px solid #0078d4;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
